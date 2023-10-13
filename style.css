@@ -1,0 +1,139 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1614280461_59-p-chernii-fon-dlya-chata-70.jpg");
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    background-color: #040d399c;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+main {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+footer {
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1614280461_59-p-chernii-fon-dlya-chata-70.jpg");
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.response-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.responce_bloq {
+    max-width: 160px;
+}
+
+.response_photo1 {
+    background: url("https://get.pxhere.com/photo/person-people-portrait-facial-expression-hairstyle-smile-emotion-portrait-photography-134689.jpg") center no-repeat;
+    width:150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.response_photo2 {
+    background: url("https://fotozvezda.ru/wp-content/uploads/2020/01/77b80d2c3d35a5c3f5da9c8c44242c15.png") center no-repeat;
+    width:150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.response_photo3 {
+    background: url("https://techiesproject.com/d1lhy388c2xgxf/portraits/shawn-sprockett-hero-2350x1520.jpg") center no-repeat;
+    width:150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#skills .section-container, #courses .section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 0 0 60px 20px;
+    align-items: center;
+}
+
+a.disabled {       
+    text-decoration:none;
+    color: #999;
+}
+.skills_photo, .courses_photo {
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 300px; 
+   
+}
+.skills_ul, .courses_ul {
+    width: 300px;
+    padding: 20px;
+    line-height: 1.4;
+    list-style: none;
+}
+li::before {
+    content: "🔹"; 
+    margin-right: 5px; 
+}
+    
+@media (max-width: 375px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+}
